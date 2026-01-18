@@ -58,10 +58,19 @@ export default function TeamPage() {
       <Header />
 
       {/* Hero Section */}
-      <section className="bg-[#F9F7F2] py-0 sm:py-0 md: mt-15">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 text-center">
-          <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl text-[#0F172A] mb-6">Our Leadership Team</h1>
-          <p className="font-sans text-base sm:text-lg text-[#0F172A]/70 max-w-2xl mx-auto leading-relaxed">
+      <section className="relative bg-primary py-20 sm:py-24 md:py-28 lg:py-40 overflow-hidden">
+        <div className="absolute inset-0">
+          <Image
+            src="/hero-team-office.jpg"
+            alt="Modern corporate office"
+            fill
+            className="object-cover opacity-20"
+            priority
+          />
+        </div>
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 text-center">
+          <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl text-white mb-6">Our Leadership Team</h1>
+          <p className="font-sans text-base sm:text-lg text-white/80 max-w-2xl mx-auto leading-relaxed">
             Independent partner-led service with Big Four expertise.
           </p>
         </div>

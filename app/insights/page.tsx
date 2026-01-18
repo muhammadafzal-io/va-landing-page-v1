@@ -12,8 +12,15 @@ export default function InsightsPage() {
       <Header />
 
       {/* Hero Section - REDUCED PADDING */}
-      <section className="bg-primary py-12 md:py-20 text-white">
-        <div className="max-w-5xl mx-auto px-6 text-center">
+      <section className="relative bg-primary py-20 md:py-28 text-white overflow-hidden">
+        <div className="absolute inset-0">
+          <img
+            src="/hero-insights-documents.jpg"
+            alt="Professional documents"
+            className="w-full h-full object-cover opacity-20"
+          />
+        </div>
+        <div className="relative max-w-5xl mx-auto px-6 text-center">
           <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-normal mb-6 leading-tight text-balance">
             News and Technical Insights
           </h1>
