@@ -19,8 +19,15 @@ export default function RealEstateAdvisoryPage() {
       <Header />
 
       {/* Hero Section */}
-      <section className="bg-primary py-24 md:py-32 text-white">
-        <div className="max-w-5xl mx-auto px-6 text-center">
+      <section className="relative bg-primary py-24 md:py-32 text-white overflow-hidden">
+        <div className="absolute inset-0">
+          <img
+            src="/hero-real-estate.jpg"
+            alt="Luxury real estate"
+            className="w-full h-full object-cover opacity-20"
+          />
+        </div>
+        <div className="relative max-w-5xl mx-auto px-6 text-center">
           <p className="text-accent font-medium text-sm uppercase tracking-widest mb-6">OUR SERVICES</p>
           <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-normal mb-8 leading-tight text-balance">
             Real Estate Advisory

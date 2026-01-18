@@ -10,15 +10,25 @@ export default function AboutPage() {
       <Header />
 
       {/* Hero Section */}
-      <section className="bg-primary py-20 sm:py-24 md:py-28 lg:py-32">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
+      <section className="relative bg-primary py-20 sm:py-24 md:py-28 lg:py-35 overflow-hidden">
+        <div className="absolute inset-0">
+          <Image
+            src="/hero-about-executive-boardroom.jpg"
+            alt="Executive boardroom"
+            fill
+            className="object-cover opacity-25"
+            priority
+          />
+        </div>
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 text-center">
           <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-primary-foreground tracking-tight">
             About Us
           </h1>
-          <p className="mt-6 text-lg sm:text-xl text-primary-foreground/80 max-w-3xl leading-relaxed">
+          <p className="mt-6 text-lg sm:text-xl text-primary-foreground/80 max-w-3xl mx-auto leading-relaxed text-center">
             Specialist advisory providing holistic solutions for GCC inbound UK and international high-net-worth private
             clients.
           </p>
+
         </div>
       </section>
 
