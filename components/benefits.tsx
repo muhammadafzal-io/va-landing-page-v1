@@ -39,7 +39,7 @@ export function Benefits() {
 
         {/* CHANGED: Reduced mb-16/20 to mb-8/12 */}
         <div className="mb-8 sm:mb-12 text-center">
-          <p className="text-accent font-medium text-xs sm:text-sm uppercase tracking-widest mb-3">OUR SERVICES</p>
+
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold text-foreground leading-tight text-balance mx-auto max-w-3xl px-4">
             OUR SPECIALIST SERVICES
           </h2>

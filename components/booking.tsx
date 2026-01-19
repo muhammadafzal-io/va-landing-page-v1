@@ -11,9 +11,9 @@ export function Booking() {
 
         {/* CHANGED: Reduced mb-16/20 to mb-8/12 */}
         <div className="text-center mb-8 sm:mb-12">
-          <h2 className="text-4xl sm:text-5xl md:text-6xl font-serif font-bold text-primary mb-4">Contact Us</h2>
+          <h2 className="text-4xl sm:text-5xl md:text-6xl font-serif font-bold text-primary mb-4">Contact us</h2>
           <p className="text-lg sm:text-xl text-primary/70 max-w-2xl mx-auto leading-relaxed px-4 font-sans">
-            Find out more about our specialist services and how we can help.
+            Get in touch to find out more about our specialist services and how we can help.
           </p>
         </div>
 
@@ -83,7 +83,7 @@ export function Booking() {
             <div className="bg-primary p-8 md:p-10 rounded-xl text-center">
               <h3 className="font-serif text-2xl md:text-3xl text-white mb-4">Ready to Get Started?</h3>
               <p className="text-white/80 mb-8 font-sans">
-                Visit our contact page to send us a detailed message or find more information about our offices.
+                Click below to send us a message with your enquiry.
               </p>
               <Link href="/contact">
                 <Button className="bg-accent hover:bg-accent/90 text-white font-medium px-10 py-6 text-base font-sans">

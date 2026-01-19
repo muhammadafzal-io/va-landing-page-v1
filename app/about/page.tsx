@@ -25,8 +25,7 @@ export default function AboutPage() {
             About Us
           </h1>
           <p className="mt-6 text-lg sm:text-xl text-primary-foreground/80 max-w-3xl mx-auto leading-relaxed text-center">
-            Specialist advisory providing holistic solutions for GCC inbound UK and international high-net-worth private
-            clients.
+
           </p>
 
         </div>
@@ -36,17 +35,11 @@ export default function AboutPage() {
       <section className="py-16 sm:py-20 md:py-24 lg:py-20 bg-background">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
           <div className="space-y-8 sm:space-y-10 md:space-y-12">
-            <div>
-              <div className="w-16 h-1 bg-accent mb-6" />
-              <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl text-primary tracking-tight mb-8">
-                Who We Are
-              </h2>
-            </div>
+
 
             <p className="text-base sm:text-lg md:text-xl text-foreground/80 leading-relaxed">
-              Middle East Advisory Group was established as a specialist advisory firm providing holistic solutions
-              focused advisory services to GCC inbound UK and international high-net-worth private clients, Middle
-              Eastern families and GCC based businesses. With offices in the UK, Dubai, Abu Dhabi and Saudi Arabia, we
+              Middle East Advisory Group was established as a specialist advisory firm providing holistic solutions focused
+              advisory services to UAE and KSA inbound UK and international high-net-worth private clients and Middle Eastern families. With offices in the UK, Dubai, Abu Dhabi and Saudi Arabia, we
               partner with accountants, international wealth managers, private banks, family offices and law firms, to
               provide an independent partner led service to both private and corporate clients. Being based out of both
               UK and GCC allows us to serve our international clients from our multiple office locations.
@@ -54,7 +47,7 @@ export default function AboutPage() {
 
             <p className="text-base sm:text-lg md:text-xl text-foreground/80 leading-relaxed">
               Our specialist teams can support our clients throughout the business lifecycle, from corporate set ups to
-              tax efficient exit planning. We have extensive experience with helping our clients enter the GCC market,
+              tax efficient exit planning. We have extensive experience with helping our clients enter the UAE and KSA markets,
               implementing tax efficient corporate structures and managing ongoing compliance. We also work extensively
               with Middle Eastern and international families, advising them on tax efficient structuring of their
               international asset portfolios, succession planning and family governance.
@@ -86,11 +79,7 @@ export default function AboutPage() {
               <div className="w-16 h-1 bg-accent" />
 
               <blockquote className="text-base sm:text-lg text-foreground/80 leading-relaxed italic border-l-2 border-accent pl-6">
-                I established Middle East Advisory Group with the objective of delivering Big Four level expertise and
-                world-class proactive advisory services to both GCC inbound and outbound clients. With global mobility
-                on the rise and more high-net-worth families and businesses expanding to the GCC, demand for technically
-                strong and commercially focused cross-border advisory services has grown significantly. Our vision is to
-                become the go to advisers for UK and international GCC market entry clients and Middle Eastern families.
+                I established the Middle East Advisory Group with the objective of delivering Big Four level expertise and world-class proactive advisory services to both GCC inbound and outbound clients. With global mobility on the rise and more high‑net‑worth families and businesses expanding to the GCC in particular UAE and KSA, demand for technically strong and commercially focused cross-border advisory services has grown significantly. We are proud to be one of the leading advisers for UK and international GCC market entry clients and Middle Eastern families. 
               </blockquote>
               <div className="pt-4">
                 <div className="w-32 h-px bg-accent mb-4" />

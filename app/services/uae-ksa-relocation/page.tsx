@@ -40,7 +40,7 @@ export default function UaeKsaRelocationPage() {
 
       <section className="py-16 md:py-20 bg-[#F9F7F2]">
         <div className="max-w-6xl mx-auto px-6">
-          <h2 className="font-serif text-3xl md:text-4xl text-primary mb-6">            Comprehensive relocation support and corporate formation services for GCC inbound families and entrepreneurs.</h2>
+          <h2 className="font-serif text-3xl md:text-4xl text-primary mb-6">            Comprehensive relocation support and corporate formation services for UAE and KSA inbound families and entrepreneurs.</h2>
           <p className="text-base md:text-lg leading-relaxed text-primary/80 max-w-4xl font-sans">
 
 
