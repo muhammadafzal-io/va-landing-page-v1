@@ -34,8 +34,8 @@ export function Hero() {
           </h1>
 
           <p className="text-base sm:text-lg md:text-xl text-white/80 leading-relaxed font-light max-w-3xl mx-auto px-4 mb-8 sm:mb-10">
-            Specialist relocation, tax, real estate to UK, Middle Eastern and
-            international families and entrepreneurs.
+            Specialist relocation, tax, real estate and cross-border structuring advisers to UK,
+            Middle Eastern and international families and entrepreneurs
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6">
