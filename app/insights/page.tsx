@@ -99,7 +99,7 @@ export default function InsightsPage() {
           <div className="text-center mt-12">
             <Button
               variant="outline"
-              className="border-2 border-accent text-accent hover:bg-accent hover:text-white font-medium px-8 py-6 text-base font-sans bg-transparent"
+              className=" bg-accent hover:bg-white hover:text-black  text-white font-medium px-8 py-6 text-base font-sans "
             >
               Load More Articles
             </Button>
@@ -108,7 +108,7 @@ export default function InsightsPage() {
       </section>
 
       {/* Newsletter CTA - REDUCED PADDING */}
-      <section className="py-12 md:py-16 bg-primary">
+      {/* <section className="py-12 md:py-16 bg-primary">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <h2 className="font-serif text-3xl md:text-4xl text-white mb-4">Stay Informed</h2>
           <p className="text-white/70 mb-8 font-sans">
@@ -125,7 +125,7 @@ export default function InsightsPage() {
             </Button>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <Footer />
     </main>

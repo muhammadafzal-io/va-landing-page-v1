@@ -17,7 +17,7 @@ const teamMembers: TeamMember[] = [
   {
     name: "Zeeshan Khilji",
     title: "CEO",
-    image: "/zeeshan-khilji-ceo.jpg",
+    image: "/Zeeshan.jpg",
     bio: `Zeeshan is a UK qualified Big-Four trained accountant and tax adviser, having spent the majority of his career with Big Four and Top 10 firms including PwC, EY and Azets.
 
 He specialises in advising high-net-worth individuals, international families and corporates on cross-border structuring, real estate advisory and succession planning. He also has extensive M&A experience, advising on international tax structuring of cross-border transactions including private equity deals.
@@ -39,7 +39,7 @@ She has held senior positions at PwC, BDO and CGI in Dubai, advising on transfer
   {
     name: "Dan Crumplin",
     title: "Head of Corporate Services",
-    image: "/team-daniel-crumplin.jpg",
+    image: "/Dan.jpg",
     bio: `Dan has over a decade of experience across the UAE and Saudi Arabia, advising organisations from innovative start-ups to Fortune 500 companies.
 
 He specialises in market entry consultancy, corporate structuring and cross-border asset planning, helping businesses establish and scale efficiently across the Middle East.

@@ -83,17 +83,17 @@ export function Footer() {
             <ul className="space-y-3 sm:space-y-4 text-xs sm:text-sm text-white/70 font-light">
               <li>
                 <Link href="/about" className="hover:text-accent transition">
-                  About Us
+                  About us
                 </Link>
               </li>
               <li>
                 <Link href="/team" className="hover:text-accent transition">
-                  Our Team
+                  Our team
                 </Link>
               </li>
               <li>
                 <Link href="/insights" className="hover:text-accent transition">
-                  News & Insights
+                  News & insights
                 </Link>
               </li>
               <li>

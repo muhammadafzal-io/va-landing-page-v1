@@ -22,7 +22,7 @@ export default function AboutPage() {
         </div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 text-center">
           <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-primary-foreground tracking-tight">
-            About Us
+            About us
           </h1>
           <p className="mt-6 text-lg sm:text-xl text-primary-foreground/80 max-w-3xl mx-auto leading-relaxed text-center">
 
@@ -75,7 +75,7 @@ export default function AboutPage() {
             <div className="order-2 lg:order-1">
               <div className="relative w-64 h-64 sm:w-72 sm:h-72 md:w-80 md:h-80 lg:w-96 lg:h-96 mx-auto lg:mx-0">
                 <Image
-                  src="/zeeshan-khilji-ceo.jpg"
+                  src="/Zeeshan.jpg"
                   alt="Zeeshan Khilji - CEO"
                   fill
                   className="object-cover rounded-full"

@@ -54,12 +54,12 @@ export function AboutTrainer() {
           })}
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 md:gap-10 items-center bg-card p-6 sm:p-10 rounded-lg">
+        <div className="grid md:grid-cols-2 gap-3 md:gap-3 items-center bg-card p-6 sm:p-10 rounded-lg">
           {/* CEO Image */}
           <div className="flex justify-center md:justify-start">
-            <div className="w-40 h-40 sm:w-48 sm:h-48 md:w-56 md:h-56 rounded-full overflow-hidden border-4 border-accent/20">
+            <div className="w-40 h-40 sm:w-48 sm:h-48 md:w-56 md:h-56  ml-3 rounded-full overflow-hidden border-4 border-accent/20">
               <Image
-                src="/zeeshan-khilji-ceo.jpg"
+                src="/Zeeshan.jpg"
                 alt="Zeeshan Khilji"
                 width={300}
                 height={300}
