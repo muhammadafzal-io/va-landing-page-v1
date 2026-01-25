@@ -40,7 +40,7 @@ export default function AccountingCompliancePage() {
         {/* Updated Container to max-w-4xl and exact responsive padding */}
         <div className="max-w-6xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
 
-          <h2 className="font-serif text-3xl md:text-4xl text-primary mb-6 text-justify">
+          <h2 className="font-serif text-3xl md:text-4xl text-primary mb-6 ">
             Comprehensive UAE accounting and tax compliance services.
           </h2>
 
@@ -80,19 +80,7 @@ export default function AccountingCompliancePage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 md:py-20 bg-secondary">
-        {/* Updated padding for consistency */}
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 text-center">
-          <p className="text-base md:text-lg text-primary/70 mb-8 leading-relaxed font-sans">
-            Contact our team to discuss your accounting and compliance requirements
-          </p>
-          <Link href="/contact">
-            <Button className="bg-accent hover:bg-white hover:text-black text-white font-medium px-8 py-6 text-base font-sans transition-colors duration-300">
-              Contact Us Today
-            </Button>
-          </Link>
-        </div>
-      </section>
+
 
       <Footer />
     </main>

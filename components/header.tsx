@@ -44,7 +44,7 @@ export function Header() {
             href="/about"
             className="text-sm font-medium text-foreground/70 hover:text-foreground transition tracking-wide"
           >
-            About
+            About us
           </Link>
           <div
             className="relative group"
@@ -81,7 +81,13 @@ export function Header() {
             href="/team"
             className="text-sm font-medium text-foreground/70 hover:text-foreground transition tracking-wide"
           >
-            Our Team
+            Our team
+          </Link>
+          <Link
+            href="/insights"
+            className="text-sm font-medium text-foreground/70 hover:text-foreground transition tracking-wide"
+          >
+            News
           </Link>
           <Link
             href="/contact"
@@ -125,7 +131,7 @@ export function Header() {
               onClick={() => setMobileMenuOpen(false)}
               className="block text-sm font-medium text-foreground/70 hover:text-foreground transition py-2"
             >
-              About
+              About us
             </Link>
             <div className="space-y-2">
               <p className="text-sm font-medium text-foreground/70 py-2">Services</p>
@@ -147,7 +153,14 @@ export function Header() {
               onClick={() => setMobileMenuOpen(false)}
               className="block text-sm font-medium text-foreground/70 hover:text-foreground transition py-2"
             >
-              Our Team
+              Our team
+            </Link>
+            <Link
+              href="/insights"
+              onClick={() => setMobileMenuOpen(false)}
+              className="block text-sm font-medium text-foreground/70 hover:text-foreground transition py-2"
+            >
+              News
             </Link>
             <Link
               href="/contact"

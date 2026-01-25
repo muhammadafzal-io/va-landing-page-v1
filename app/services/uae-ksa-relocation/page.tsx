@@ -40,9 +40,9 @@ export default function UaeKsaRelocationPage() {
 
       <section className="py-16 md:py-20 bg-[#F9F7F2]">
         {/* Changed max-w-6xl to max-w-4xl and updated px to match the previous section */}
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 text-justify">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
 
-          <h2 className="font-serif text-3xl md:text-4xl text-primary mb-6 text-justify">
+          <h2 className="font-serif text-3xl md:text-4xl text-primary mb-6">
             Comprehensive relocation support and corporate formation services for UAE and KSA inbound families and entrepreneurs.
           </h2>
 
@@ -92,19 +92,7 @@ export default function UaeKsaRelocationPage() {
       {/* </CHANGE> */}
 
       {/* CTA Section */}
-      <section className="py-16 md:py-20 bg-secondary">
-        <div className="max-w-4xl mx-auto px-6 text-center">
 
-          <p className="text-base md:text-lg text-primary/70 mb-8 leading-relaxed font-sans">
-            Contact our team to discuss your relocation and corporate services requirements
-          </p>
-          <Link href="/contact">
-            <Button className="bg-accent hover:bg-white hover:text-black text-white font-medium px-8 py-6 text-base font-sans">
-              Contact Us Today
-            </Button>
-          </Link>
-        </div>
-      </section>
 
       <Footer />
     </main>
