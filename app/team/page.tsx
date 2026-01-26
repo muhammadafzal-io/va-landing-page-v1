@@ -118,7 +118,7 @@ export default function TeamPage() {
                     <h3 className="font-serif text-xl text-[#0F172A]">
                       {member.name}
                     </h3>
-                    <p className="text-xs uppercase tracking-widest text-[#B4924F] font-semibold mt-1">
+                    <p className="text-xs  tracking-widest text-[#B4924F] font-semibold mt-1">
                       {member.title}
                     </p>
                   </div>

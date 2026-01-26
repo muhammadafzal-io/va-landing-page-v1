@@ -72,10 +72,10 @@ export default function InsightsPage() {
 
                   {/* Meta */}
                   <div className="flex items-center gap-4 text-xs text-primary/50 mb-4 font-sans pt-4 border-t border-gray-100 mt-auto">
-                    <div className="flex items-center gap-1.5">
+                    {/* <div className="flex items-center gap-1.5">
                       <User className="w-3.5 h-3.5" />
                       <span>{article.author}</span>
-                    </div>
+                    </div> */}
                     <div className="flex items-center gap-1.5">
                       <Calendar className="w-3.5 h-3.5" />
                       <span>{article.date}</span>
@@ -96,14 +96,14 @@ export default function InsightsPage() {
           </div>
 
           {/* Load More */}
-          <div className="text-center mt-12">
+          {/* <div className="text-center mt-12">
             <Button
               variant="outline"
               className=" bg-accent hover:bg-white hover:text-black  text-white font-medium px-8 py-6 text-base font-sans "
             >
               Load More Articles
             </Button>
-          </div>
+          </div> */}
         </div>
       </section>
 

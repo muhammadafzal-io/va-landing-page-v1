@@ -31,10 +31,7 @@ export function Booking() {
                     Boulevard Plaza, Tower 1, Level 9, Sheikh Mohammed Bin Rashid Boulevard, Dubai, United Arab Emirates
                   </p>
                 </div>
-                <div className="flex items-center gap-3">
-                  <Phone className="w-4 h-4 text-accent flex-shrink-0" />
-                  <span className="text-sm text-primary/70 font-sans">+971 04 527 6813</span>
-                </div>
+               
               </div>
             </div>
 
@@ -68,6 +65,17 @@ export function Booking() {
                   <p className="text-sm text-primary/70 font-sans">17 Hanover Square, London, W1S 1BN</p>
                 </div>
 
+              </div>
+            </div>
+
+              <div className="bg-white p-6 rounded-xl shadow-sm border-l-4 border-l-accent">
+              <h3 className="text-lg sm:text-xl font-serif font-bold text-primary mb-3">Contact</h3>
+              <div className="space-y-2">
+               
+                <div className="flex items-center gap-3">
+                  <Phone className="w-4 h-4 text-accent flex-shrink-0" />
+                  <span className="text-sm text-primary/70 font-sans">+971 04 527 6813</span>
+                </div>
               </div>
             </div>
           </div>
