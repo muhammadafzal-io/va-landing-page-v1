@@ -31,7 +31,7 @@ export default function UaeKsaRelocationPage() {
           />
         </div>
         <div className="relative max-w-5xl mx-auto px-6 text-center">
-          <p className="text-accent font-medium text-sm uppercase tracking-widest mb-6">OUR SERVICES</p>
+          <p className="text-accent font-medium text-sm uppercase tracking-widest mb-6">OUR SPECIALIST SERVICES</p>
           <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-normal mb-8 leading-tight text-balance">
             UAE and KSA Relocation and Corporate Services
           </h1>

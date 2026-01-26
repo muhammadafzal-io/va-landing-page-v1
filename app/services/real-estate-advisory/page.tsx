@@ -28,7 +28,7 @@ export default function RealEstateAdvisoryPage() {
           />
         </div>
         <div className="relative max-w-5xl mx-auto px-6 text-center">
-          <p className="text-accent font-medium text-sm uppercase tracking-widest mb-6">OUR SERVICES</p>
+          <p className="text-accent font-medium text-sm uppercase tracking-widest mb-6">OUR SPECIALIST SERVICES</p>
           <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-normal mb-8 leading-tight text-balance">
             Real Estate Advisory
           </h1>
@@ -50,9 +50,9 @@ export default function RealEstateAdvisoryPage() {
               We advise investors, families and developers on international real estate acquisitions,
               structuring and compliance with a focus on residential and commercial real estate
               investments across the GCC (predominantly UAE and KSA) and European markets.
-            </p>
 
-            <p>
+
+
               Whether clients are expanding into the UAE and KSA real estate markets or Middle Eastern
               investors diversifying into prime UK property, we source, evaluate and support transactions
               across key global markets.

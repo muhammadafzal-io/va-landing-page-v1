@@ -28,7 +28,7 @@ export default function FamilyGovernancePage() {
           />
         </div>
         <div className="relative max-w-5xl mx-auto px-6 text-center">
-          <p className="text-accent font-medium text-sm uppercase tracking-widest mb-6">OUR SERVICES</p>
+          <p className="text-accent font-medium text-sm uppercase tracking-widest mb-6">OUR SPECIALIST SERVICES</p>
           <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-normal mb-8 leading-tight text-balance">
             Family Governance and Succession Planning
           </h1>
@@ -40,7 +40,7 @@ export default function FamilyGovernancePage() {
         {/* Updated Container to max-w-4xl and exact responsive padding */}
         <div className="max-w-5xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16">
 
-          <h2 className="font-serif text-3xl md:text-4xl text-primary mb-6 text-justify">
+          <h2 className="font-serif text-3xl md:text-4xl text-primary mb-6">
             Bespoke wealth preservation strategies, asset protection solutions and cross-border estate planning.
           </h2>
 
@@ -51,9 +51,7 @@ export default function FamilyGovernancePage() {
               with complex cross‑border structuring, family governance, wealth preservation and
               succession planning. Our expertise spans tax‑efficient ownership structures, asset
               protection strategies and multi‑jurisdictional estate planning.
-            </p>
 
-            <p>
               We can advise our clients on tax efficient cross-border structures and work in
               collaboration with our lawyers to navigate through the complex rules of inheritance
               and succession, ensuring efficient succession planning to intended beneficiaries,

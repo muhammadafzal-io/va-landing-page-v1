@@ -14,7 +14,7 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "Middle East Advisory Group",
   description:
-    "Trusted advisers delivering Big-Four-level expertise across the GCC region",
+    "Trusted advisers delivering Big-Four-level expertise",
   generator: "v0.app",
   icons: {
     icon: [{ url: "/new-logo.png", type: "image/png" }],
