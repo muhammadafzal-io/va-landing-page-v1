@@ -168,7 +168,7 @@ export const articles = [
     author: "Middle East Advisory Group",
     date: "January 18, 2026",
     category: "Corporate Tax",
-    image: "/head.JPEG",
+    image: "/head.jpeg",
   },
 
   {
