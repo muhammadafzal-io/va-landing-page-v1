@@ -41,13 +41,13 @@ export default function AboutPage() {
             </p>
 
             <p className="text-base sm:text-lg md:text-xl text-foreground/80 leading-relaxed">
-              With offices in Dubai, Abu Dhabi, Saudi Arabia and the UK, we partner with international wealth managers, private banks, family offices, accountants and law firms, to provide an independent partner led service to high-net-worth private clients and corporates. Being based out of both UK and GCC allows us to serve our international clients from our multiple office locations. 
+              With offices in Dubai, Abu Dhabi, Saudi Arabia and the UK, we partner with wealth managers, private banks, family offices, accountants and law firms, to provide an independent partner led service to high-net-worth private clients and corporates. Being based out of both UK and GCC allows us to serve our international clients from our multiple office locations. 
             </p>
 
             <p className="text-base sm:text-lg md:text-xl text-foreground/80 leading-relaxed">
               Our specialist teams can support our clients throughout the business lifecycle, from corporate set ups to tax efficient exit planning.
               We have extensive experience with helping our clients enter
-              the GCC markets, implementing tax efficient corporate
+              the GCC market, implementing tax efficient corporate
               structures and managing ongoing compliance. We also work extensively
               with Middle Eastern and international families, advising them on tax
               efficient structuring of their international asset portfolios,

@@ -44,7 +44,21 @@ export default function ContactPage() {
                 Contact us
               </h1>
 
-              <div className="space-y-8">
+             
+
+              {/* Additional Offices */}
+              <div className="">
+                {/* <h2 className="font-serif text-2xl text-primary mb-6">Offices</h2> */}
+                <div className="space-y-4 text-primary/70 font-sans">
+                  {offices.map((office, index) => (
+                    <p key={index}>
+                      <span className="text-primary font-medium">{office.city}:</span> {office.address}
+                    </p>
+                  ))}
+                </div>
+              </div>
+
+               <div className="space-y-8 mt-5 pt-12 border-t border-primary/10">
                 {/* Email */}
                 <div className="flex items-start gap-4">
                   <Mail className="w-6 h-6 text-primary mt-1 flex-shrink-0" strokeWidth={1.5} />
@@ -56,17 +70,7 @@ export default function ContactPage() {
                   </a>
                 </div>
 
-                {/* Address */}
-                <div className="flex items-start gap-4">
-                  <MapPin className="w-6 h-6 text-primary mt-1 flex-shrink-0" strokeWidth={1.5} />
-                  <address className="text-primary text-lg font-sans not-italic leading-relaxed">
-                    Boulevard Plaza, Tower 1, Level 9, 
-                    <br />
-                    Sheikh Mohammed Bin Rashid Boulevard, Dubai, 
-                    <br />
-                    United Arab Emirates
-                  </address>
-                </div>
+          
 
                 {/* Phone */}
                 <div className="flex items-start gap-4">
@@ -79,18 +83,6 @@ export default function ContactPage() {
                     +971 04 527 6813
                     </span>
                   {/* </a> */}
-                </div>
-              </div>
-
-              {/* Additional Offices */}
-              <div className="mt-5 pt-12 border-t border-primary/10">
-                <h2 className="font-serif text-2xl text-primary mb-6">Other Offices</h2>
-                <div className="space-y-4 text-primary/70 font-sans">
-                  {offices.slice(1).map((office, index) => (
-                    <p key={index}>
-                      <span className="text-primary font-medium">{office.city}:</span> {office.address}
-                    </p>
-                  ))}
                 </div>
               </div>
             </div>

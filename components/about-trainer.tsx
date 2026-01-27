@@ -12,7 +12,7 @@ export function AboutTrainer() {
     },
     {
       icon: Award,
-      title: "Expertise",
+      title: "SPECIALSIT BIG-FOUR EXPERTISE",
       description: "Independent partner-led service with an experienced ex-Big Four leadership team",
     },
     {
@@ -29,8 +29,7 @@ export function AboutTrainer() {
 
         <div className="max-w-4xl mx-auto text-center mb-8 sm:mb-12">
           <p className="text-base sm:text-lg md:text-xl leading-relaxed text-secondary-foreground text-left md:text-justify">
-            Middle East Advisory (MEA) Group is one of the leading GCC-based advisory and corporate services firms, supporting UK, Middle Eastern and international families, entrepreneurs and high-net worth private clients with relocation, tax advisory, real estate and cross-border structuring services across the UAE and Saudi Arabia (KSA) and the wider GCC region.
-          </p>
+Middle East Advisory (MEA) Group is one of the leading GCC-based advisory and corporate services firms, supporting UK, Middle Eastern and international families, entrepreneurs and high-net-worth private clients with relocation, tax advisory, real estate and cross-border structuring services across the UAE, Saudi Arabia (KSA) and the wider GCC region.          </p>
 
         </div>
 
