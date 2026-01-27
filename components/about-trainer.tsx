@@ -12,7 +12,7 @@ export function AboutTrainer() {
     },
     {
       icon: Award,
-      title: "SPECIALSIT BIG-FOUR EXPERTISE",
+      title: "SPECIALIST BIG-FOUR EXPERTISE",
       description: "Independent partner-led service with an experienced ex-Big Four leadership team",
     },
     {
@@ -41,7 +41,7 @@ Middle East Advisory (MEA) Group is one of the leading GCC-based advisory and co
                 <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full border-2 border-accent flex items-center justify-center mx-auto mb-4">
                   <IconComponent className="w-8 h-8 sm:w-10 sm:h-10 text-accent" strokeWidth={1.5} />
                 </div>
-                <h3 className="text-lg sm:text-xl font-serif font-semibold text-foreground mb-2">
+                <h3 className="uppercase text-lg sm:text-xl font-serif font-semibold text-foreground mb-2">
                   {pillar.title}
                 </h3>
                 <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
