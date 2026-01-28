@@ -185,9 +185,9 @@ export default function HeadquarterServicesPage() {
           </Link> 
 
           <div className="flex items-center gap-4 mb-6">
-            <span className="px-3 py-1 bg-accent/10 text-accent text-xs font-bold uppercase tracking-wider rounded-sm">
+            {/* <span className="px-3 py-1 bg-accent/10 text-accent text-xs font-bold uppercase tracking-wider rounded-sm">
               {article.category}
-            </span>
+            </span> */}
             <span className="text-muted-foreground text-sm flex items-center gap-1.5 font-sans">
               <Calendar className="w-3.5 h-3.5" /> {article.date}
             </span>
@@ -212,7 +212,7 @@ export default function HeadquarterServicesPage() {
         </div>
 
         {/* Featured Image */}
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 mb-12">
+        {/* <div className="max-w-5xl mx-auto px-4 sm:px-6 mb-12">
           <div className="relative aspect-[21/9] w-full overflow-hidden rounded-xl shadow-sm">
             <Image
               src={article.image || "/placeholder.svg"}
@@ -222,7 +222,7 @@ export default function HeadquarterServicesPage() {
               priority
             />
           </div>
-        </div>
+        </div> */}
 
         {/* Article Content Body */}
         <article className="max-w-3xl mx-auto px-6">

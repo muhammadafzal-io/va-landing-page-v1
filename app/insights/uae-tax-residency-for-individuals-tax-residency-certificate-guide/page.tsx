@@ -49,12 +49,12 @@ An individual does not automatically become a UAE tax resident simply by holding
 </p>
 <br>
 <p class="text-justify">
-<p class='underline'>183-day presence test</p><br>
+<strong class=''>183-day presence test</strong><br>
 The simplest route to UAE tax residency is spending 183 days or more in the UAE during any period of twelve consecutive months. This test looks only at physical presence within the UAE’s borders. This is often the test used by individuals who have fully relocated to the UAE and spend most of the year here.
 </p>
 
 <p class="text-justify"> <br>
-<p class='underline'>90-day presence test</p><br>
+<strong class=''>90-day presence test</strong><br>
 To use this route, the person must have been in the UAE for at least 90 days in a twelve-month period. In addition, they must either be a UAE national, a GCC national, or hold a valid UAE residence permit.
 </p>
 <p class="my-2">If those conditions are satisfied, one of the following must also apply:</p>
@@ -66,7 +66,7 @@ To use this route, the person must have been in the UAE for at least 90 days in 
 </ul>
 
 <p class="text-justify"> <br>
-<p class="underline mb-2">Primary place of residence or center of interest test</p>
+<strong class=" mb-2">Primary place of residence or center of interest test</strong>
 Even without meeting any day-count threshold, a person can still be UAE tax resident if the UAE is both:</p>
 
 <ol class="ml-3" style="list-style-type: decimal; padding-left: 20px; margin-bottom: 20px;">
@@ -136,9 +136,9 @@ If you need personalised guidance or wish to apply for a UAE Tax Residency Certi
           </Link>
 
           <div className="flex items-center gap-4 mb-6">
-            <span className="px-3 py-1 bg-accent/10 text-accent text-xs font-bold uppercase tracking-wider rounded-sm">
+            {/* <span className="px-3 py-1 bg-accent/10 text-accent text-xs font-bold uppercase tracking-wider rounded-sm">
               {article.category}
-            </span>
+            </span> */}
             <span className="text-muted-foreground text-sm flex items-center gap-1.5 font-sans">
               <Calendar className="w-3.5 h-3.5" /> {article.date}
             </span>
@@ -162,7 +162,7 @@ If you need personalised guidance or wish to apply for a UAE Tax Residency Certi
         </div>
 
         {/* Featured Image */}
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 mb-12">
+        {/* <div className="max-w-5xl mx-auto px-4 sm:px-6 mb-12">
           <div className="relative aspect-[21/9] w-full overflow-hidden rounded-xl shadow-sm">
             <Image
               src={article.image || "/placeholder.svg"}
@@ -172,7 +172,7 @@ If you need personalised guidance or wish to apply for a UAE Tax Residency Certi
               priority
             />
           </div>
-        </div>
+        </div> */}
 
         {/* Article Content Body */}
         <article className="max-w-5xl mx-auto px-6">
