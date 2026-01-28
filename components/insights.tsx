@@ -29,8 +29,8 @@ export function Insights() {
           className="relative"
           opts={{ align: "start", loop: true }}
         >
-          <CarouselPrevious className="left-0 -translate-x-1/2 top-1/2 -translate-y-1/2 z-999 cursor-pointer hover:text-black hover:bg-white bg-accent text-white w-13 h-13" />
-          <CarouselNext className="right-0 translate-x-1/2 top-1/2 -translate-y-1/2 z-999 cursor-pointer hover:text-black hover:bg-white bg-accent text-white w-13 h-13" />
+          <CarouselPrevious className="left-0 -translate-x-1/2 top-1/2 -translate-y-1/2 z-999 cursor-pointer hover:text-black hover:bg-white bg-accent text-white w-15 h-15 md:w-13 md:h-13" />
+          <CarouselNext className="right-0 translate-x-1/2 top-1/2 -translate-y-1/2 z-999 cursor-pointer hover:text-black hover:bg-white bg-accent text-white w-15 h-15 md:w-13 md:h-13" />
 
           <CarouselContent className="-ml-6 sm:-ml-8">
             {articles.map((article) => (
