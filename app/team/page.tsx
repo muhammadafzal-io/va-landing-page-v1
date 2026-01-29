@@ -72,7 +72,7 @@ export default function TeamPage() {
           src="/hero-team-office.jpg"
           alt="Leadership team"
           fill
-          priority
+          loading="lazy"
           className="object-cover opacity-20"
         />
         <div className="relative max-w-7xl mx-auto px-6 text-center">
@@ -109,6 +109,7 @@ export default function TeamPage() {
       group-hover:grayscale-0
       group-hover:scale-105
     "
+                    loading="lazy"
                   />
                 </div>
 
@@ -159,6 +160,7 @@ export default function TeamPage() {
                     alt={selectedMember.name}
                     fill
                     className="object-cover"
+                    loading="lazy"
                   />
                 </div>
               </div>

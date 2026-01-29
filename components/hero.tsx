@@ -12,7 +12,7 @@ export function Hero() {
           alt="Dubai skyline"
           fill
           className="object-cover opacity-15"
-          priority
+          loading="lazy"
         />
       </div>
 

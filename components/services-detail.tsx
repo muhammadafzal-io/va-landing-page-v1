@@ -108,6 +108,7 @@ export default function ServicesDetail() {
                     alt={service.imageAlt}
                     fill
                     className="object-cover"
+                    loading="lazy"
                   />
                 </div>
               </div>

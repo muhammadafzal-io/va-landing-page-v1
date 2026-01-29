@@ -49,6 +49,7 @@ export function Insights() {
                       alt={article.title}
                       fill
                       className="object-cover transition-transform duration-500 group-hover:scale-105"
+                      loading="lazy"
                     />
                   </div>
 

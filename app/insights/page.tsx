@@ -18,6 +18,7 @@ export default function InsightsPage() {
             src="/hero-insights-documents.jpg"
             alt="Professional documents"
             className="w-full h-full object-cover opacity-20"
+            loading="lazy"
           />
         </div>
         <div className="relative max-w-5xl mx-auto px-6 text-center">
@@ -48,6 +49,7 @@ export default function InsightsPage() {
                     src={article.image || "/placeholder.svg"}
                     alt={article.title}
                     className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500"
+                  loading="lazy"
                   />
                 </Link>
 

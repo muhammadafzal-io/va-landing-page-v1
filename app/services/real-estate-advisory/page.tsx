@@ -25,6 +25,7 @@ export default function RealEstateAdvisoryPage() {
             src="/hero-real-estate.jpg"
             alt="Luxury real estate"
             className="w-full h-full object-cover opacity-20"
+            loading="lazy"
           />
         </div>
         <div className="relative max-w-5xl mx-auto px-6 text-center">

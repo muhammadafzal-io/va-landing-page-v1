@@ -25,6 +25,7 @@ export default function FamilyGovernancePage() {
             src="/hero-family-governance.jpg"
             alt="Family office interior"
             className="w-full h-full object-cover opacity-20"
+            loading="lazy"
           />
         </div>
         <div className="relative max-w-5xl mx-auto px-6 text-center">

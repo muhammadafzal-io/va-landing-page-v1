@@ -17,7 +17,7 @@ export default function AboutPage() {
             alt="Executive boardroom"
             fill
             className="object-cover opacity-25"
-            priority
+            loading="lazy"
           />
         </div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-16 text-center">
@@ -72,6 +72,7 @@ export default function AboutPage() {
                   alt="Zeeshan Khilji - CEO"
                   fill
                   className="object-cover rounded-full"
+                  loading="lazy"
                 />
                 {/* Gold accent ring */}
                 <div className="absolute inset-0 rounded-full border-4 border-accent" />

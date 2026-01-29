@@ -69,6 +69,7 @@ export function Team() {
                   width={400}
                   height={500}
                   className="w-full aspect-[4/5] object-cover transition-transform duration-500 group-hover:scale-105"
+                  loading="lazy"
                 />
               </div>
 

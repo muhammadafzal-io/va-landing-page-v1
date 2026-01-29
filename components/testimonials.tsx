@@ -73,6 +73,7 @@ export default function Testimonials() {
                 width={192}
                 height={192}
                 className="object-cover"
+                loading="lazy"
               />
             </div>
           </div>

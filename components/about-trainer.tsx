@@ -62,6 +62,7 @@ Middle East Advisory (MEA) Group is one of the leading GCC-based advisory and co
                 width={300}
                 height={300}
                 className="w-full h-full object-cover"
+                loading="lazy"
               />
             </div>
           </div>
