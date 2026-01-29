@@ -72,7 +72,7 @@ export function Footer() {
               </li>
               <li>
                 <Link href="/services/accounting-compliance" className="hover:text-accent transition">
-                  UAE Accounting and Tax Compliance
+                  UAE Accounting and Outsourced CFO Services
                 </Link>
               </li>
             </ul>
@@ -124,6 +124,12 @@ export function Footer() {
           <p className="text-xs sm:text-sm text-white/60 font-light">
             © 2025 Middle East Advisory Group. All rights reserved.
           </p>
+          <Link href="/terms" className="text-xs sm:text-sm text-white/60 hover:text-accent transition">
+            Terms &amp; Conditions
+          </Link>
+          <Link href="/privacy-policy" className="text-xs sm:text-sm text-white/60 hover:text-accent transition">
+            Privacy Policy
+          </Link>
          
         </div>
       </div>

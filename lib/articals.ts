@@ -166,7 +166,7 @@ export const articles = [
     author: "Middle East Advisory Group",
     date: "January 23, 2026",
     category: "Corporate Tax",
-    image: "/head.jpeg",
+    image: "/headquarter_services.jpeg",
   },
 
   {
@@ -315,7 +315,7 @@ export const articles = [
     author: "Middle East Advisory Group",
     date: "January 05, 2026",
     category: "Corporate Tax",
-    image: "/second.jpeg",
+    image: "/uae_free_zones_vs_mainland.jpeg",
   },
   {
     id: 6,
@@ -503,7 +503,7 @@ export const articles = [
     author: "Middle East Advisory Group",
     date: "December 20, 2025",
     category: "Corporate Tax",
-    image: "/4.jpeg",
+    image: "/uae_corporate_tax.jpeg",
   },
 
   {
@@ -640,7 +640,7 @@ export const articles = [
     author: "Middle East Advisory Group",
     date: "December 05, 2025",
     category: "Corporate Tax",
-    image: "/3.jpeg", 
+    image: "/place_of_effective_management.jpeg", 
   },
   {
     id: 8,
@@ -791,7 +791,7 @@ export const articles = [
     author: "Middle East Advisory Group",
     date: "November 20, 2025",
     category: "Individual Tax Residency",
-    image: "/5.jpeg",
+    image: "/tax_residency_for_individuals.jpeg",
   },
   {
     id: 9,
@@ -906,7 +906,7 @@ export const articles = [
     author: "Middle East Advisory Group",
     date: "November 05, 2025",
     category: "Corporate Tax",
-    image: "/6.png",
+    image: "/small_business_relief.jpeg",
   },
 
 

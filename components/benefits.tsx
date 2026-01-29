@@ -27,7 +27,7 @@ export function Benefits() {
     },
     {
       icon: FileText,
-      title: "UAE Accounting and Tax Compliance",
+      title: "UAE Accounting and Outsourced CFO Services",
       slug: "accounting-compliance",
     },
   ]

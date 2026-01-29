@@ -15,7 +15,7 @@ export function Header() {
     { name: "Tax Advisory and International Structuring", slug: "tax-advisory" },
     { name: "Real Estate Advisory", slug: "real-estate-advisory" },
     { name: "Family Governance and Succession Planning", slug: "family-governance" },
-    { name: "UAE Accounting and Tax Compliance", slug: "accounting-compliance" },
+    { name: "UAE Accounting and Outsourced CFO Services", slug: "accounting-compliance" },
   ]
 
   return (
