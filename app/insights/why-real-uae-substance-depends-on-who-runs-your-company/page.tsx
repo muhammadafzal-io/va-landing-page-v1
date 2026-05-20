@@ -1,18 +1,18 @@
-import Image from "next/image"
-import Link from "next/link"
-import { ArrowLeft, Calendar, User, Share2 } from "lucide-react"
-import { Header } from "@/components/header"
-import { Footer } from "@/components/footer"
+import Image from 'next/image';
+import Link from 'next/link';
+import { ArrowLeft, Calendar, User, Share2 } from 'lucide-react';
+import { Header } from '@/components/header';
+import { Footer } from '@/components/footer';
 
 export default function CorporateSubstancePage() {
     // Static data for this specific page
     const article = {
-        title: "Why Real UAE Substance Depends on Who Actually Runs Your Company",
-        author: "Middle East Advisory Group",
-        date: "May 12, 2026",
-        category: "Corporate Governance",
-        image: "/7.jpeg",
-    }
+        title: 'Why Real UAE Substance Depends on Who Actually Runs Your Company',
+        author: 'Middle East Advisory Group',
+        date: 'May 12, 2026',
+        category: 'Corporate Governance',
+        image: '/7.jpeg',
+    };
 
     // Content formatted with justified text and inline bullet styles matching the template design
     const content = `
@@ -103,6 +103,10 @@ export default function CorporateSubstancePage() {
       relationships than one where there is a qualified director in the UAE who understands the business, 
       participates actively in governance, and can engage directly with the bank.
     </p>
+      <p class="text-justify mt-3">
+     For practical purposes, banking access has become a litmus test for substance. Structures that do not meet the banks' expectations often struggle to operate effectively, regardless of their legal validity.
+    </p>
+    
     <br>
 
     <h3 class="my-2"><strong>4. Two Approaches to UAE Directors: The Critical Distinction</strong></h3>
@@ -127,12 +131,9 @@ export default function CorporateSubstancePage() {
     </p>
 
     <p class="text-justify mt-3">
-      From a compliance perspective, the difference is decisive. When a tax authority reviews board minutes and 
-      finds that the appointed director cannot explain the company's business model or the rationale for key decisions, 
-      it becomes clear that management and control has not genuinely transferred to the UAE. Structures built around 
-      nominee arrangements may satisfy initial registration requirements, but they do not deliver the tax residency 
-      or banking access they were intended to provide.
+      From a compliance perspective, the difference is decisive. When a tax authority reviews board minutes and finds that the appointed director cannot explain the company's business model or the rationale for key decisions, it becomes clear that management and control has not genuinely transferred to the UAE. Similarly, when a bank's compliance team conducts due diligence and discovers that all instructions originate from overseas, the appointment is exposed as nominal.
     </p>
+    <p class="text-justify mt-3">Structures built around nominee arrangements may satisfy initial registration requirements, but they do not deliver the tax residency or banking access they were intended to provide. The underlying risk remains unaddressed.</p>
     <br>
 
     <h3 class="my-2"><strong>5. Why Substance Arrangements Break Down</strong></h3>
@@ -144,15 +145,20 @@ export default function CorporateSubstancePage() {
       delivering genuine management oversight.
     </p>
     <p class="text-justify mt-3">
-      This becomes apparent when the arrangement is tested. A bank may ask the director to explain the company's 
-      activities, and they are unable to do so. A tax authority may request evidence of decisions taken locally, 
-      and the documentation does not stand up to scrutiny.
+      This becomes apparent when the arrangement is tested. A bank may ask the director to explain the company's activities, and they are unable to do so. A tax authority may request evidence of decisions taken locally, and the documentation does not stand up to scrutiny. A regulator may probe governance practices, and it becomes clear that strategic control has always been exercised from offshore.
+
     </p>
     <p class="text-justify mt-3">
-      Correcting the arrangement at that stage is far more complex and costly than establishing it correctly at 
-      the outset. The professional fees saved during initial setup are invariably smaller than the cost of remediation 
-      when substance fails.
+      By the time these issues emerge, the business has typically built significant operations, relationships, and commercial dependencies on the flawed structure. Correcting the arrangement at that stage is far more complex and costly than establishing it correctly at the outset.
+
     </p>
+    
+    <p class="text-justify mt-3">
+The professional fees saved during initial setup are invariably smaller than the cost of remediation when substance fails.
+
+    </p>
+    </p>
+    
     <br>
 
     <h3 class="my-2"><strong>6. What Genuine Substance Requires</strong></h3>
@@ -164,8 +170,12 @@ export default function CorporateSubstancePage() {
       what actually occurs.
     </p>
     <p class="text-justify mt-3">
-      The test is not whether the paperwork is in order. It is whether the claimed governance arrangements 
-      correspond to operational reality.
+      These are the standards that tax authorities and banks now apply when evaluating whether central management and control is real. Structures that meet this standard from the outset are far more resilient to challenge than those where substance is retrofitted later under pressure.
+
+    </p>
+    <p class="text-justify mt-3">
+The test is not whether the paperwork is in order. It is whether the claimed governance arrangements correspond to operational reality.
+
     </p>
     <br>
 
@@ -177,60 +187,76 @@ export default function CorporateSubstancePage() {
       needs evolve.
     </p>
     <p class="text-justify mt-3">
-      Beyond compliance, there is also a strategic element. Effective governance involves leveraging local networks 
-      and relationships across government authorities, banking institutions, free zones, and professional advisors 
-      to support the business in areas such as structuring decisions, banking strategy, employment and immigration planning.
+     This includes ensuring that governance standards remain aligned with regulatory expectations, managing compliance across multiple jurisdictions, maintaining credible banking relationships, providing local oversight where required, and adapting the structure as commercial circumstances change.
     </p>
+     <p class="text-justify mt-3">
+Beyond compliance, there is also a strategic element. Effective governance involves leveraging local networks and relationships across government authorities, banking institutions, free zones, and professional advisors to support the business in areas such as structuring decisions, banking strategy, employment and immigration planning, and identifying commercial opportunities in the region.
+    </p>
+    <p class="text-justify mt-3">
+<p class="text-justify mt-3">
+The objective is to ensure that the governance framework continues to serve the business rather than becoming a static arrangement that no longer fits its purpose.
+
+    </p>    
     <br>
 
     <h3 class="my-2"><strong>8. How Middle East Advisory Group Supports Genuine Substance</strong></h3>
 
-    <p>We work with businesses to structure UAE entities that are built on genuine substance from incorporation by:</p>
+    <p>Middle East Advisory Group works with businesses to structure UAE entities that are built on genuine substance from incorporation. This involves:</p>
 
     <ul class="ml-3" style="list-style-type: disc; padding-left: 20px; margin-bottom: 20px;">
-      <li class="pt-2">Assessing whether proposed governance structures meet the requirements for central management and control;</li>
-      <li class="pt-2">Advising on how corporate structures should align with commercial objectives, regulatory requirements, and international tax considerations;</li>
-      <li class="pt-2">Connecting clients with qualified professional directors and managers where local governance capacity is required;</li>
-      <li class="pt-2">Providing ongoing support to maintain governance and compliance standards over time; and</li>
-      <li class="pt-2">Advising on how to manage relationships with banks, tax authorities, and regulators to reinforce structure credibility.</li>
+      <li class="pt-2">Assessing whether proposed governance structures meet the requirements for central management and control,
+</li>
+      <li class="pt-2">Advising on how corporate structures should align with commercial objectives, regulatory requirements, and international tax considerations,
+</li>
+      <li class="pt-2">Connecting clients with qualified professional directors and managers where local governance capacity is required,
+</li>
+      <li class="pt-2">Providing ongoing support to maintain governance and compliance standards over time, and
+</li>
+      <li class="pt-2">Advising on how to manage relationships with banks, tax authorities, and regulators in a way that reinforces the credibility of the structure.
+</li>
     </ul>
+    
+<p class="text-justify mt-3">
+If you are establishing a new UAE structure or reviewing an existing one to determine whether it will withstand regulatory scrutiny, we can provide a confidential assessment and practical guidance on the steps required.
+</p> 
+    
+    
     <br>
 
     <h3 class="my-2"><strong>Final Perspective</strong></h3>
     <p class="text-justify">
-      Central management and control is the foundation on which credible UAE structures are built. It determines 
-      whether a company is genuinely managed from the UAE or whether its presence here is superficial. Getting this 
-      right from the outset protects the integrity of the business, preserves access to banking facilities, and 
-      ensures that the intended tax benefits are defensible when challenged.
+      Central management and control is the foundation on which credible UAE structures are built. It determines whether a company is genuinely managed from the UAE or whether its presence here is superficial.
+Getting this right from the outset protects the integrity of the business, preserves access to banking facilities, and ensures that the intended tax benefits are defensible when challenged. Structures that prioritise genuine substance over administrative convenience are far more resilient in the long term.
+
     </p>
-  `
+  `;
 
     return (
-        <div className="min-h-screen bg-background font-sans">
-            <Header />
+        <div className='min-h-screen bg-background font-sans'>
+            <Header/>
 
-            <main className="pt-24 pb-16">
-                {/* Navigation & Header Area */}
-                <div className="max-w-5xl mx-auto px-6 mb-10">
+            <main className='pt-24 pb-16'>
+                {/* Navigation & Header Area */ }
+                <div className='max-w-5xl mx-auto px-6 mb-10'>
                     <Link
-                        href="/insights"
-                        className="inline-flex items-center text-sm text-accent hover:text-accent/80 mb-8 transition-colors font-medium"
+                        href='/insights'
+                        className='inline-flex items-center text-sm text-accent hover:text-accent/80 mb-8 transition-colors font-medium'
                     >
-                        <ArrowLeft className="w-4 h-4 mr-2" />
+                        <ArrowLeft className='w-4 h-4 mr-2'/>
                         Back to Insights
                     </Link>
 
-                    <div className="flex items-center gap-4 mb-6">
+                    <div className='flex items-center gap-4 mb-6'>
                         {/* <span className="px-3 py-1 bg-accent/10 text-accent text-xs font-bold uppercase tracking-wider rounded-sm">
               {article.category}
-            </span> */}
-                        <span className="text-muted-foreground text-sm flex items-center gap-1.5 font-sans">
-              <Calendar className="w-3.5 h-3.5" /> {article.date}
+            </span> */ }
+                        <span className='text-muted-foreground text-sm flex items-center gap-1.5 font-sans'>
+              <Calendar className='w-3.5 h-3.5'/> { article.date }
             </span>
                     </div>
 
-                    <h1 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold text-primary leading-tight mb-8">
-                        {article.title}
+                    <h1 className='text-3xl sm:text-4xl md:text-5xl font-serif font-bold text-primary leading-tight mb-8'>
+                        { article.title }
                     </h1>
 
                     {/* <div className="flex items-center justify-between border-t border-b border-gray-200 py-6">
@@ -243,10 +269,10 @@ export default function CorporateSubstancePage() {
                  <p className="text-xs text-muted-foreground">Middle East Advisory Group</p>
               </div>
             </div>
-          </div> */}
+          </div> */ }
                 </div>
 
-                {/* Featured Image */}
+                {/* Featured Image */ }
                 {/* <div className="max-w-5xl mx-auto px-4 sm:px-6 mb-12">
           <div className="relative aspect-[21/9] w-full overflow-hidden rounded-xl shadow-sm">
             <Image
@@ -257,25 +283,25 @@ export default function CorporateSubstancePage() {
               priority
             />
           </div>
-        </div> */}
+        </div> */ }
 
-                {/* Article Content Body */}
-                <article className="max-w-5xl mx-auto px-6">
+                {/* Article Content Body */ }
+                <article className='max-w-5xl mx-auto px-6'>
                     <div
-                        className="
+                        className='
               mx-auto
               text-left
               prose prose-lg prose-slate
               prose-headings:font-serif prose-headings:text-primary
               prose-a:text-accent
               leading-relaxed
-            "
-                        dangerouslySetInnerHTML={{ __html: content }}
+            '
+                        dangerouslySetInnerHTML={ { __html: content } }
                     />
                 </article>
             </main>
 
-            <Footer />
+            <Footer/>
         </div>
-    )
+    );
 }
