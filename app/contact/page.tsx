@@ -1,4 +1,11 @@
+import type { Metadata } from "next"
 import { Header } from "@/components/header"
+
+export const metadata: Metadata = {
+  title: "Contact MEA Group | UAE & GCC Advisory Firm",
+  description:
+    "Contact Middle East Advisory Group's advisers in Dubai for relocation, tax, real estate and family governance services across the UAE, KSA and GCC.",
+}
 import { Footer } from "@/components/footer"
 import { ContactForm } from "@/components/contact-form"
 import { Mail, Phone, MapPin } from "lucide-react"
