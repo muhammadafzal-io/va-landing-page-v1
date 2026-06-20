@@ -1,4 +1,22 @@
+import type { Metadata } from "next"
 import { Header } from "@/components/header"
+
+export const metadata: Metadata = {
+  title: "About MEA Group | UAE & GCC Advisory Firm",
+  description:
+    "Middle East Advisory Group is a UAE-based advisory firm working with wealth managers, private banks, family offices, accountants and law firms, serving HNW private clients and corporates.",
+  alternates: {
+    canonical: "/about",
+  },
+  robots: { index: true, follow: true },
+  openGraph: {
+    title: "About MEA Group | UAE & GCC Advisory Firm",
+    description:
+      "Middle East Advisory Group is a UAE-based advisory firm working with wealth managers, private banks, family offices, accountants and law firms, serving HNW private clients and corporates.",
+    url: "/about",
+    images: [{ url: "/hero-about-executive-boardroom.jpg", width: 1200, height: 630, alt: "MEA Group – About Us" }],
+  },
+}
 import { Footer } from "@/components/footer"
 import Image from "next/image"
 import Link from "next/link"
@@ -41,11 +59,11 @@ export default function AboutPage() {
             </p>
 
             <p className="text-base sm:text-lg md:text-xl text-foreground/80 leading-relaxed">
-              With offices in Dubai, Abu Dhabi, Saudi Arabia and the UK, we partner with wealth managers, private banks, family offices, accountants and law firms, to provide an independent partner led service to high-net-worth private clients and corporates. Being based out of both UK and GCC allows us to serve our international clients from our multiple office locations. 
+              Headquartered in Dubai, we partner with wealth managers, private banks, family offices, accountants and law firms, to provide an independent partner led service to high-net-worth private clients and corporates. Being based out of both UK and GCC allows us to serve our international clients from our multiple office locations. 
             </p>
 
             <p className="text-base sm:text-lg md:text-xl text-foreground/80 leading-relaxed">
-              Our specialist teams can support our clients throughout the business lifecycle, from corporate set ups to tax efficient exit planning.
+              Our team of experts can support our clients throughout the business lifecycle, from corporate set ups to tax efficient exit planning.
               We have extensive experience with helping our clients enter
               the GCC market, implementing tax efficient corporate
               structures and managing ongoing compliance. We also work extensively
@@ -53,6 +71,7 @@ export default function AboutPage() {
               efficient structuring of their international asset portfolios,
               succession planning and family governance.
             </p>
+            
 
 
 

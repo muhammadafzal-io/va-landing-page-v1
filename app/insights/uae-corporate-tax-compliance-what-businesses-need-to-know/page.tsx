@@ -1,8 +1,24 @@
+import type { Metadata } from "next"
 import Image from "next/image"
 import Link from "next/link"
 import { ArrowLeft, Calendar, User, Share2 } from "lucide-react"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
+
+export const metadata: Metadata = {
+  title: "UAE Corporate Tax Compliance: What Businesses Need to Know | MEA Group",
+  description:
+    "A comprehensive guide to UAE corporate tax compliance for businesses, covering registration, filing, deadlines and key obligations under the UAE CT Law.",
+  alternates: { canonical: "/insights/uae-corporate-tax-compliance-what-businesses-need-to-know" },
+  robots: { index: true, follow: true },
+  openGraph: {
+    title: "UAE Corporate Tax Compliance: What Businesses Need to Know | MEA Group",
+    description:
+      "A comprehensive guide to UAE corporate tax compliance for businesses, covering registration, filing, deadlines and key obligations under the UAE CT Law.",
+    url: "/insights/uae-corporate-tax-compliance-what-businesses-need-to-know",
+    images: [{ url: "/uae_corporate_tax.jpeg", width: 1200, height: 630, alt: "UAE Corporate Tax Compliance" }],
+  },
+}
 
 export default function HeadquarterServicesPage() {
     // Static data for this specific page
@@ -166,7 +182,7 @@ The payment of corporate tax (if due) must also be made within the same nine-mon
 
             <main className="pt-24 pb-16">
                 {/* Navigation & Header Area */}
-                <div className="max-w-6xl mx-auto px-6 mb-10">
+                <div className="max-w-5xl mx-auto px-6 mb-10">
                     <Link
                         href="/insights"
                         className="inline-flex items-center text-sm text-accent hover:text-accent/80 mb-8 transition-colors font-medium"
@@ -218,12 +234,13 @@ The payment of corporate tax (if due) must also be made within the same nine-mon
                 <article className="max-w-5xl mx-auto px-6">
                     <div
                         className="
-              mx-auto 
+
               text-left 
               prose prose-lg prose-slate 
               prose-headings:font-serif prose-headings:text-primary 
               prose-a:text-accent 
               leading-relaxed
+              max-w-none
             "
                         dangerouslySetInnerHTML={{ __html: content }}
                     />

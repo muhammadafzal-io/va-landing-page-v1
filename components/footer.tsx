@@ -52,7 +52,7 @@ export function Footer() {
             <ul className="space-y-3 sm:space-y-4 text-xs sm:text-sm text-white/70 font-light">
               <li>
                 <Link href="/services/uae-ksa-relocation" className="hover:text-accent transition">
-                  UAE and KSA Relocation and Corporate Services
+                  UAE and Saudi Arabia Relocation and Corporate Services
                 </Link>
               </li>
               <li>
@@ -111,9 +111,9 @@ export function Footer() {
             <ul className="space-y-3 sm:space-y-4 text-xs sm:text-sm text-white/70 font-light">
               <p className="text-xs sm:text-sm  mb-3">Dubai</p>
 
-              <p className="text-xs sm:text-sm  mb-4">Abu Dhabi</p>
+              {/* <p className="text-xs sm:text-sm  mb-4">Abu Dhabi</p>
               <p className="text-xs sm:text-sm  mb-4">Saudi Arabia</p>
-              <p className="text-xs sm:text-sm  mb-3">London</p>
+              <p className="text-xs sm:text-sm  mb-3">London</p> */}
 
             </ul>
           </div>
@@ -122,13 +122,16 @@ export function Footer() {
         {/* Bottom bar */}
         <div className="border-t border-white/10 pt-8 sm:pt-12 flex flex-col md:flex-row justify-between items-center gap-4 sm:gap-6">
           <p className="text-xs sm:text-sm text-white/60 font-light">
-            © 2025 Middle East Advisory Group. All rights reserved.
+            © 2026 Middle East Advisory Group. All rights reserved.
           </p>
           <Link href="/terms" className="text-xs sm:text-sm text-white/60 hover:text-accent transition">
-            Terms &amp; Conditions
+            Terms &amp; service
           </Link>
           <Link href="/privacy-policy" className="text-xs sm:text-sm text-white/60 hover:text-accent transition">
             Privacy Policy
+          </Link>
+          <Link href="/cookie-policy" className="text-xs sm:text-sm text-white/60 hover:text-accent transition">
+            Cookie Policy
           </Link>
          
         </div>

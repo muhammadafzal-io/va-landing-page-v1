@@ -1,8 +1,24 @@
+import type { Metadata } from "next"
 import Image from "next/image"
 import Link from "next/link"
 import { ArrowLeft, Calendar, User, Share2 } from "lucide-react"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
+
+export const metadata: Metadata = {
+  title: "Place of Effective Management Risk for Foreign Businesses | MEA Group",
+  description:
+    "MEA Group explains the UAE corporate tax risk of Place of Effective Management for foreign businesses operating with UAE-based directors or decision-makers.",
+  alternates: { canonical: "/insights/place-of-effective-management-risk-for-foreign-businesses" },
+  robots: { index: true, follow: true },
+  openGraph: {
+    title: "Place of Effective Management Risk for Foreign Businesses | MEA Group",
+    description:
+      "MEA Group explains the UAE corporate tax risk of Place of Effective Management for foreign businesses operating with UAE-based directors or decision-makers.",
+    url: "/insights/place-of-effective-management-risk-for-foreign-businesses",
+    images: [{ url: "/place_of_effective_management.jpeg", width: 1200, height: 630, alt: "Place of Effective Management UAE" }],
+  },
+}
 
 export default function HeadquarterServicesPage() {
   // Static data for this specific page
@@ -124,7 +140,7 @@ const content = `
 
       <main className="pt-24 pb-16">
         {/* Navigation & Header Area */}
-        <div className="max-w-6xl mx-auto px-6 mb-10">
+        <div className="max-w-5xl mx-auto px-6 mb-10">
           <Link
             href="/insights"
             className="inline-flex items-center text-sm text-accent hover:text-accent/80 mb-8 transition-colors font-medium"
@@ -176,7 +192,7 @@ const content = `
         <article className="max-w-5xl mx-auto px-6">
           <div
             className="
-              mx-auto 
+              max-w-none
               text-left 
               prose prose-lg prose-slate 
               prose-headings:font-serif prose-headings:text-primary 

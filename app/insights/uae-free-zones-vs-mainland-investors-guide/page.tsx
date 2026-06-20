@@ -1,8 +1,24 @@
+import type { Metadata } from "next"
 import Image from "next/image"
 import Link from "next/link"
 import { ArrowLeft, Calendar, User, Share2 } from "lucide-react"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
+
+export const metadata: Metadata = {
+  title: "UAE Free Zones vs Mainland: What Investors Need to Know | MEA Group",
+  description:
+    "MEA Group compares UAE free zones and mainland for investors — covering tax treatment, ownership, licensing, and which structure suits your business goals.",
+  alternates: { canonical: "/insights/uae-free-zones-vs-mainland-investors-guide" },
+  robots: { index: true, follow: true },
+  openGraph: {
+    title: "UAE Free Zones vs Mainland: What Investors Need to Know | MEA Group",
+    description:
+      "MEA Group compares UAE free zones and mainland for investors — covering tax treatment, ownership, licensing, and which structure suits your business goals.",
+    url: "/insights/uae-free-zones-vs-mainland-investors-guide",
+    images: [{ url: "/uae_free_zones_vs_mainland.jpeg", width: 1200, height: 630, alt: "UAE Free Zones vs Mainland" }],
+  },
+}
 
 export default function HeadquarterServicesPage() {
   // Static data for this specific page
@@ -148,7 +164,7 @@ This “five-year lockout” makes strategic planning essential.</p>
 
       <main className="pt-24 pb-16">
         {/* Navigation & Header Area */}
-        <div className="max-w-6xl mx-auto px-6 mb-10">
+        <div className="max-w-5xl mx-auto px-6 mb-10">
           <Link
             href="/insights"
             className="inline-flex items-center text-sm text-accent hover:text-accent/80 mb-8 transition-colors font-medium"
@@ -200,12 +216,13 @@ This “five-year lockout” makes strategic planning essential.</p>
         <article className="max-w-5xl mx-auto px-6">
           <div
             className="
-              mx-auto 
+
               text-left 
               prose prose-lg prose-slate 
               prose-headings:font-serif prose-headings:text-primary 
               prose-a:text-accent 
               leading-relaxed
+              max-w-none
             "
             dangerouslySetInnerHTML={{ __html: content }}
           />

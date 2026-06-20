@@ -1,8 +1,24 @@
+import type { Metadata } from "next"
 import Image from "next/image"
 import Link from "next/link"
 import { ArrowLeft, Calendar, User, Share2 } from "lucide-react"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
+
+export const metadata: Metadata = {
+  title: "UAE Corporate Tax: Does Your Business Qualify for Small Business Relief? | MEA Group",
+  description:
+    "MEA Group explains the UAE Corporate Tax Small Business Relief — eligibility criteria, the AED 3 million revenue threshold and conditions that disqualify businesses.",
+  alternates: { canonical: "/insights/uae-corporate-tax-small-business-relief-eligibility" },
+  robots: { index: true, follow: true },
+  openGraph: {
+    title: "UAE Corporate Tax: Does Your Business Qualify for Small Business Relief? | MEA Group",
+    description:
+      "MEA Group explains the UAE Corporate Tax Small Business Relief — eligibility criteria, the AED 3 million revenue threshold and conditions that disqualify businesses.",
+    url: "/insights/uae-corporate-tax-small-business-relief-eligibility",
+    images: [{ url: "/small_business_relief.jpeg", width: 1200, height: 630, alt: "UAE Corporate Tax Small Business Relief" }],
+  },
+}
 
 export default function HeadquarterServicesPage() {
   // Static data for this specific page
@@ -104,7 +120,7 @@ const content = `
 
       <main className="pt-24 pb-16">
         {/* Navigation & Header Area */}
-        <div className="max-w-6xl mx-auto px-6 mb-10">
+        <div className="max-w-5xl mx-auto px-6 mb-10">
           <Link
             href="/insights"
             className="inline-flex items-center text-sm text-accent hover:text-accent/80 mb-8 transition-colors font-medium"
@@ -156,12 +172,13 @@ const content = `
         <article className="max-w-5xl mx-auto px-6">
           <div
             className="
-              mx-auto 
+
               text-left 
               prose prose-lg prose-slate 
               prose-headings:font-serif prose-headings:text-primary 
               prose-a:text-accent 
               leading-relaxed
+              max-w-none
             "
             dangerouslySetInnerHTML={{ __html: content }}
           />
